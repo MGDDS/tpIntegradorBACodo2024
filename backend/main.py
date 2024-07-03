@@ -7,10 +7,10 @@ def main():
     manager = ManagerSqlite("pizza.db") 
 
     # Crea instancias de Pizza
-    pizza = Pizza("Mozzarella","Grande",5000)
-    pizza_dos = Pizza("Jamon","Chica",7000)
-    pizza_tres = Pizza("JamonYMorrones","Chica",8000)
-    pizza_cuatro = Pizza("Fugazzeta","Individual",6000)
+    pizza = Pizza("Mozzarella","Individual",2000)
+    pizza_dos = Pizza("Jamon","Chica",5000)
+    pizza_tres = Pizza("JamonYMorrones","Grande",9000)
+    pizza_cuatro = Pizza("Fugazzeta","Chica",3000)
     
     # Inserta las pizzas en la base de datos
     manager.insert_one_pizza(pizza)
