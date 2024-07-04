@@ -1,6 +1,6 @@
 class Pizza:
     def __init__(self,nombre,tamanio,precio):
-        self.nombre =   nombre 
+        self.nombre_ =   nombre 
         self.tamanio = tamanio 
         self.precio = precio
     
